@@ -1,0 +1,10 @@
+{
+    "DeploymentMethod": "lambda",
+    "Functions": {
+        "2oRcurVwM6Wk-platform-user-createUser": {
+            "PhysicalId": {
+                "us-east-1": "2oRcurVwM6Wk-platform-user-createUser"
+            }
+        }
+    }
+}

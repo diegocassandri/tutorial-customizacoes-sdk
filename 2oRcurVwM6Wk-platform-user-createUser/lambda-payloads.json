@@ -1,0 +1,13 @@
+{
+    "2oRcurVwM6Wk-platform-user-createUser": {
+        "lambda": {
+            "username": "testecustom",
+            "fullName": "testecustom",
+            "email": "testecustom@senior.com.br",
+            "password": "123456",
+            "blocked": false,
+            "changePassword": false,
+            "properties": []
+        }
+    }
+}

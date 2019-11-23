@@ -1,0 +1,20 @@
+{
+    "2oRcurVwM6Wk-platform-user-updateUser": {
+        "lambda": {
+            "environment": "homologx",
+            "headers": {
+                "X-Senior-Token": "Bearer 8e03e43d17be3fc43568e1019e28a24e"
+            },
+            "body": {
+                "username": "teste2",
+                "fullName": "teste2",
+                "email": "teste2@senior.com.br",
+                "description": "Usuário criado por:  Admin fabcustom",
+                "locale": "pt-BR",
+                "blocked": true,
+                "changePassword": false,
+                "properties": []
+            }
+        }
+    }
+}
