@@ -1,6 +1,5 @@
 //Importa as blibliotecas momonent,axios e o utilizario http da biblioteca fab-lambda-lib
-const AxiosWrapper = require('fab-lambda-lib').AxiosWrapper;
-const axiosW = new AxiosWrapper(require('axios').default);
+const { axiosW } = require('@seniorsistemas/fsw-aws-lambda/utils');
 
 //recebdo o event e o nome do usuário que está sendo alterado
 async function validateRoles(event, user) {

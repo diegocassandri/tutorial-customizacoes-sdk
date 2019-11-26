@@ -11,7 +11,7 @@
                 "email": "teste2@senior.com.br",
                 "description": "Usuário criado por:  Admin fabcustom",
                 "locale": "pt-BR",
-                "blocked": false,
+                "blocked": true,
                 "changePassword": false,
                 "properties": []
             }

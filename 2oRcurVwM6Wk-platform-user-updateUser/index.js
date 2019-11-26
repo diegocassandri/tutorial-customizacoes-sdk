@@ -5,7 +5,11 @@
  * Nome do tenant : fabcustom
  **/
 //Importação dos utilitários da biblioteca
-const {lambdaEvent, lambdaResponse, AsyncRuleValidator} = require('fab-lambda-lib');
+const {
+    lambdaEvent,
+    lambdaResponse,
+    AsyncRuleValidator 
+} = require('@seniorsistemas/fsw-aws-lambda');
 //Recebe o evento e o contexto da requisição feita pela plataforma
 exports.handler = async (event,context) => {
   

@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@seniorsistemas/fsw-aws-lambda": "0.0.3",
     "axios": "^0.19.0",
-    "fab-lambda-lib": "0.0.2",
     "moment": "^2.24.0"
   }
 }
