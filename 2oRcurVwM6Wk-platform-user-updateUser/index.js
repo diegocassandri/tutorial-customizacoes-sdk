@@ -18,14 +18,18 @@ exports.handler = async (event,context) => {
   //cria objeto contendo o evento e informções do ambiente de execução (dev, homologação ou proução)
   const eventInfo = lambdaEvent.createEventInfo(event);
   
+  //Importa o arquivo que contém as validações de negócio
+
+  const blockUser =  require('./src/rules/blockUser');
+
   //Realizar a chamada do método que executa as validações de negócios da função
   //No método validate passamos o nome dos arquivos possuem as implementações das regras de negócio a serem validadas
   //Aqui podemos ser passadas quantas validações forem necessárias, as mesmas vão rodar em paralelo assincronamente
-  
+
   
   return new AsyncRuleValidator(body,eventInfo)
       .validate([
-          'blockUser'
+          blockUser
         ])
         .then(validationResult => {
           
