@@ -759,3 +759,4 @@ Caso você não tenha familiaridade com o GIT e Github você pode acessar o link
  - Documentação AWS Cloud9: (https://docs.aws.amazon.com/pt_br/cloud9/latest/user-guide/welcome.html)
  - Documentação NodeJs: (https://nodejs.org/dist/latest-v12.x/docs/api/documentation.html)
  - Guia rápido Javascript ES6: (https://github.com/alexmoreno/ES6-para-humanos) 
+

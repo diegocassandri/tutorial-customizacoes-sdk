@@ -25,7 +25,6 @@ exports.handler = async (event,context) => {
   //Realizar a chamada do método que executa as validações de negócios da função
   //No método validate passamos o nome dos arquivos possuem as implementações das regras de negócio a serem validadas
   //Aqui podemos ser passadas quantas validações forem necessárias, as mesmas vão rodar em paralelo assincronamente
-
   
   return new AsyncRuleValidator(body,eventInfo)
       .validate([
