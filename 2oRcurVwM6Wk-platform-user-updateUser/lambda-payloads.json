@@ -16,5 +16,23 @@
                 "properties": []
             }
         }
+    },
+    "2oRcurVwM6WkPlatformUserUpdateUser": {
+        "lambda": {
+            "environment": "homologx",
+            "production": false,
+            "headers": {
+                "X-Senior-Token": "Bearer cd7a5c250f867c382c57aa51b626ca1a"
+            },
+            "body": {
+                "username": "mateus.cassandri",
+                "fullName": "Mateus Cassandri",
+                "email": "mateus.cassandri@senior.com.br",
+                "description": "Usuário criado por:  Admin fabcustom",
+                "blocked": true,
+                "changePassword": false,
+                "properties": []
+            }
+        }
     }
 }

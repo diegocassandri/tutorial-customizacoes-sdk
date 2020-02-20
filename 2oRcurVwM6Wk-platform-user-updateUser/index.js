@@ -13,11 +13,15 @@ const {
 //Recebe o evento e o contexto da requisição feita pela plataforma
 exports.handler = async (event,context) => {
   
+  //Seta environment vindo do cabeçalho customizado
+  event.environment = event.headers['environment'];
+  
   //parseia o corpo da requisição de acordo com o tipo de chamada (testes ou chamda http)
   const body = lambdaEvent.parseBody(event);
   //cria objeto contendo o evento e informções do ambiente de execução (dev, homologação ou proução)
-  const eventInfo = lambdaEvent.createEventInfo(event);
   
+  const eventInfo = lambdaEvent.createEventInfo(event);
+
   //Importa o arquivo que contém as validações de negócio
 
   const blockUser =  require('./src/rules/blockUser');
