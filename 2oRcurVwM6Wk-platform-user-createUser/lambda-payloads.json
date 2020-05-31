@@ -9,5 +9,21 @@
             "changePassword": false,
             "properties": []
         }
+    },
+    "2oRcurVwM6WkPlatformUserCreateUser": {
+        "lambda": {
+            "headers": {
+                "X-Senior-Token": "Bearer 00bfdde3981a192ab2cbe422dff974ce"
+            },
+            "body": {
+                "username": "teste4",
+                "fullName": "teste4",
+                "email": "teste4@senior.com.br",
+                "password": "teste4",
+                "blocked": false,
+                "changePassword": false,
+                "properties": []
+            }
+        }
     }
 }

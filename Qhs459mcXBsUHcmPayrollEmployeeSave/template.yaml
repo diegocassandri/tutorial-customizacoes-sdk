@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+    Qhs459mcXBsUHcmPayrollEmployeeSave:
+        Type: 'AWS::Serverless::Function'
+        Properties:
+            Description: O serviço customizado irá receber a requisição antes de chegar ao serviço de destino e deverá alterar os dados de entrada da requisição conforme desejado e retornar os dados alterados.
+            Handler: index.handler
+            MemorySize: 128
+            Role: 'arn:aws:iam::554225762469:role/trn36294296Role'
+            Runtime: nodejs12.x
+            Timeout: 3

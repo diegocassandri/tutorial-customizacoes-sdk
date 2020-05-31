@@ -1,0 +1,318 @@
+{
+    "Qhs459mcXBsUHcmPayrollEmployeeSave": {
+        "lambda": {
+            "environment": "homologx",
+            "headers": {
+                "X-Senior-Token": "Bearer 7369f27bf0a008f56ae57733925a52fd"
+            },
+            "body": {
+                "sheetContract": {
+                    "admissionOriginType": {
+                        "key": "NORMAL",
+                        "value": "Normal"
+                    },
+                    "hireDate": "2020-07-01",
+                    "hireType": {
+                        "key": "FirstJob",
+                        "value": "1 - Primeiro Emprego"
+                    },
+                    "situation": {
+                        "tableId": "5408FE3610D34337A5621655AD6E59CB",
+                        "name": "Trabalhando"
+                    },
+                    "movimentationReason": {
+                        "tableId": "06961799FA5D499FA33D7289C77B91DF",
+                        "name": "Admissão"
+                    },
+                    "eSocialAdmissionType": {
+                        "key": "TYPE_01",
+                        "value": "Admissão"
+                    },
+                    "categoryESocial": {
+                        "key": "Category_101",
+                        "value": "101 - Empregado - Geral, inclusive o empregado público da administração direta ou indireta contratado pela CLT (Vigente desde 01/07/2020)"
+                    },
+                    "sefipCategoryType": {
+                        "key": "TYPE_01",
+                        "value": "Empregado (Vigente desde 01/07/2020)"
+                    },
+                    "unemploymentInsuranceType": {
+                        "key": "NOT_CONSULTED",
+                        "value": "Não consultado"
+                    },
+                    "appearsinRais": "true",
+                    "raisDepartment": {
+                        "tableId": "E8D250AA4A7D4D0BBE425E69FF97C000",
+                        "name": "BLUMENAU"
+                    },
+                    "actingType": {
+                        "tableId": "320F75C9442B47E8AF5B9683CBF7DD2B",
+                        "name": "Atuação Principal"
+                    },
+                    "employeeType": {
+                        "key": "EMPLOYEE",
+                        "value": "1 - Colaborador"
+                    },
+                    "employmentRelationship": {
+                        "tableId": "23840C8D6E0644539B5D904DF06073E7",
+                        "name": "10 - Trb.Urb,Emp.Jur,CLT (Vigente desde 01/07/2020)"
+                    },
+                    "duration": 90,
+                    "extension": 0,
+                    "endDate": "2020-09-28",
+                    "customFieldsEmployee": [],
+                    "customFieldsHistoricalExpenseNature": []
+                },
+                "sheetDocument": {
+                    "cpfNumber": "064567449460",
+                    "pisNumber": "16000035846",
+                    "pisIssuanceDate": "2000-01-01",
+                    "customFieldsRg": []
+                },
+                "sheetFinancial": {
+                    "payType": {
+                        "key": "Monthly",
+                        "value": "Mensal"
+                    },
+                    "payMode": {
+                        "key": "Money",
+                        "value": "Dinheiro"
+                    },
+                    "receivesThirteenthSalary": "true",
+                    "receivesSalaryAdvance": "false",
+                    "bank": {
+                        "tableId": "CCCF25E4F54546C4954AD672800F3CEF",
+                        "name": "1 - Banco do Brasil"
+                    },
+                    "bankBranch": {
+                        "tableId": "F3A283F4D0594C4CA6CAE18AB0AECF08",
+                        "name": "1 - CENTRO"
+                    },
+                    "accountType": {
+                        "key": "CurrentAccount",
+                        "value": "1 - Conta Corrente"
+                    },
+                    "accountNumber": "88888",
+                    "accountDigit": "8",
+                    "fgtsInterestRate": 3,
+                    "fgtsOptingDate": "2020-07-01",
+                    "optingForFGTS": "true",
+                    "customFieldsAccount": []
+                },
+                "sheetInitial": {
+                    "company": {
+                        "tableId": "4F080D02214A4F9F88DC4DE7F82D70EB",
+                        "name": "1 - Demonstra Ind.& Com. Têxtil S/A"
+                    },
+                    "contractNationality": {
+                        "key": "National",
+                        "value": "1 - Nacional"
+                    },
+                    "employee": {
+                        "tableId": "150791888D3E4746A689000A31FBA6DC",
+                        "name": "Diego Cassandri"
+                    },
+                    "contractType": {
+                        "key": "Employee",
+                        "value": "1 - Empregado"
+                    },
+                    "person": {
+                        "tableId": "AD79734A6C37438599692EF758EDCFEC",
+                        "name": "Diego Cassandri"
+                    }
+                },
+                "sheetPersona": {
+                    "attachment": {
+                        "attachmentId": "A53996C220E64FBD847D97C3E92BFC1B",
+                        "fileId": "25DC7B26A7ED412EAE481EA8983BC8E1/Deno.jpeg",
+                        "thumbnail": false
+                    },
+                    "nickname": "Cassandri",
+                    "gender": {
+                        "key": "Male",
+                        "value": "Masculino"
+                    },
+                    "birthday": "1993-03-21",
+                    "motherName": "Nome da Mão",
+                    "fatherName": "Nome do pai",
+                    "maritalStatus": {
+                        "key": "Single",
+                        "value": "1 - Solteiro"
+                    },
+                    "degreeOfEducation": {
+                        "tableId": "A6A6781FE76446359A2E3A004C3394C8",
+                        "name": "10 - Pós-Graduação"
+                    },
+                    "nationality": {
+                        "tableId": "99EE900A84B246DCB26F81EA191B3B3A",
+                        "name": "10 - Brasileiro"
+                    },
+                    "race": {
+                        "key": "White",
+                        "value": "1 - Branca"
+                    },
+                    "countryOfBirthday": {
+                        "tableId": "DEE5D894CC0B49B88AADEDDEB701ED0B",
+                        "name": "Brasil"
+                    },
+                    "stateOfBirthday": {
+                        "tableId": "346AD603F7FB44C4A273ABDCFD1F9277",
+                        "name": "Santa Catarina"
+                    },
+                    "cityOfBirthday": {
+                        "tableId": "E8D250AA4A7D4D0BBE425E69FF97C000",
+                        "name": "BLUMENAU"
+                    },
+                    "country": {
+                        "tableId": "DEE5D894CC0B49B88AADEDDEB701ED0B",
+                        "name": "Brasil"
+                    },
+                    "cep": "89012510",
+                    "state": {
+                        "tableId": "346AD603F7FB44C4A273ABDCFD1F9277",
+                        "name": "Santa Catarina"
+                    },
+                    "city": {
+                        "tableId": "E8D250AA4A7D4D0BBE425E69FF97C000",
+                        "name": "BLUMENAU"
+                    },
+                    "neighborhood": {
+                        "tableId": "C5058EF1946F4ED79940E17B58083A7D",
+                        "name": "24 - VICTOR KONDER"
+                    },
+                    "addressType": {
+                        "key": "Street",
+                        "value": "Rua"
+                    },
+                    "addressName": "Rua sem Saída",
+                    "addressNumber": "99",
+                    "isDisability": "false",
+                    "religion": {
+                        "tableId": "861D3F4EA4054D3DB8C9D09E9882F47F",
+                        "name": "Ateu"
+                    },
+                    "isOccupantQuota": "false",
+                    "socialName": "Diego Cassandri",
+                    "customFieldsPerson": []
+                },
+                "sheetPlace": {
+                    "workstationGroup": {
+                        "tableId": "DFE2768473EB4B7C9FD2C96D395C1AF7",
+                        "name": "PRO002 - Gerente Produção (Vigente desde 01/07/2020)"
+                    },
+                    "branch": {
+                        "tableId": "A9D8090043D14371A21FA0AB894FC226",
+                        "name": "1 - Demonstra S/A - Matriz (Vigente desde 01/07/2020)"
+                    },
+                    "costCenter": {
+                        "tableId": "43A8E0F540B54684A231D8B846CAE377",
+                        "name": "13 - Produção (Vigente desde 01/07/2020)"
+                    },
+                    "department": {
+                        "tableId": "619E7A95DF73415C9EA3F659A47E11D0",
+                        "name": "1.03.01 - Produção (Vigente desde 01/07/2020)"
+                    },
+                    "jobPosition": {
+                        "tableId": "CDE794CB1CAD4D40A6608BB2EC5FD18D",
+                        "name": "16 - Gerente Produção (Vigente desde 01/07/2020)"
+                    },
+                    "customFieldsHistoricalWorkstation": [],
+                    "customFieldsHistoricalCostCenter": [],
+                    "customFieldsHistoricalJobPosition": [],
+                    "customFieldsHistoricalCompanyBranch": [],
+                    "customFieldsHistoricalDepartment": []
+                },
+                "sheetSalary": {
+                    "salaryType": {
+                        "key": "Monthly",
+                        "value": "Mensalista (Vigente desde 01/07/2020)"
+                    },
+                    "wageScale": {
+                        "tableId": "2263EA76FB4B4E80970B71C7F7580DC8",
+                        "name": "Comércio (Vigente desde 01/07/2020)"
+                    },
+                    "wageClass": {
+                        "tableId": "9C1F2FF73FF44A2D9138E4A06FE02F72",
+                        "name": "GER (Vigente desde 01/07/2020)"
+                    },
+                    "wageLevel": {
+                        "tableId": "7DE6B493061141C393F4AE33755ED66F",
+                        "name": "4 (Vigente desde 01/07/2020)"
+                    },
+                    "salary": "4380.00",
+                    "customFieldsHistoricalSalary": []
+                },
+                "sheetSyndicate": [
+                    {
+                        "syndicate": {
+                            "tableId": "3A24905BF2A2489C9EFE443E4FEC23BB",
+                            "name": "Sind. Indústria Blumenau (Vigente desde 01/07/2020)"
+                        },
+                        "isMainSyndicate": true,
+                        "isUnionized": false,
+                        "isAssistanceFee": false,
+                        "isCosting": false,
+                        "isReversion": false
+                    }
+                ],
+                "sheetWorkSchedule": {
+                    "workshift": {
+                        "tableId": "5C8077B9DA1A4ACEB93662CF504D5DC2",
+                        "name": "08:00 1200-1330 1800/Flexível (Vigente desde 01/07/2020)"
+                    },
+                    "workshiftGroup": {
+                        "tableId": "173FF165B00C469CAEB61FD51D106C64",
+                        "name": "1 (Vigente desde 01/07/2020)"
+                    },
+                    "intervalGroup": {
+                        "tableId": "6CF9BA4F307C4D948B14B2FA88AE4048",
+                        "name": "Almoço I (Vigente desde 01/07/2020)"
+                    },
+                    "customFieldsHistoricalWorkshift": []
+                },
+                "sheetOtherContract": {
+                    "otherContractType": {
+                        "key": "SINGLE_CONTRACT",
+                        "value": "Contrato único"
+                    },
+                    "customFieldsOtherContract": []
+                },
+                "sheetEntries": {},
+                "sheetComplement": {
+                    "retirementType": null,
+                    "retirementDate": null,
+                    "taxExemption": null,
+                    "movementSefipRetirement": null,
+                    "transportationVoucherScale": null,
+                    "pointEmbarkation": null,
+                    "transportationVoucherStartDate": null,
+                    "healthAndSafety": {
+                        "lastMedicalExaminationDate": null,
+                        "nextMedicalExaminationDate": null
+                    },
+                    "healthPlan": {
+                        "healthPlanType": null,
+                        "healthPlanCode": null,
+                        "registrationCode": null,
+                        "inclusionDate": null,
+                        "exclusionDate": null,
+                        "healthplanCode": null
+                    },
+                    "qualificationStructure": {
+                        "qualification": null,
+                        "wagescale": null,
+                        "wageclass": null,
+                        "wagelevel": null
+                    },
+                    "badge": null,
+                    "issueDotCard": null,
+                    "controlPoint": null,
+                    "deleteClockingEventType": null,
+                    "customFieldsHistoricalTransportationVoucherScale": [],
+                    "customFieldsRetirement": [],
+                    "healthPlanType": null
+                }
+            }
+        }
+    }
+}
