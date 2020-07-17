@@ -727,6 +727,12 @@ O código fonte desse exemplo pode ser encontrado no seguinte repositório:
 
 (https://github.com/diegocassandri/tutorial-customizacoes-sdk/tree/master/2oRcurVwM6Wk-platform-userupdateUser)
 
+### Desenvolver ou executar uma customização localmente
+
+Para testes e estudos, existe a possibilidade de executar um projeto NodeJS que segue exatamente a mesma estrutura de uma função lambda através de um ambiente local, sem a necessidade de um ambiente de customizações criado em um tenant de cliente (AWS).
+
+Para mais detalhes, acessar o repositório: https://github.com/feeeeliipe/fsw-lambda-mock
+
 ## Dicas e boas práticas 
 
 Quando estamos desenvolvendo customizações utilizando o SDK, podemos e devemos utilizar algumas boas práticas que facilitam o desenvolvimento em equipe e por consequência melhoram a qualidade das customizações entregues, abaixo alguns exemplos e padrões de mercado que podemos utilizar nos projetos com o SDK.
