@@ -17,25 +17,24 @@ exports.handler = async event => {
         baseURL: 'https://platform-homologx.senior.com.br/t/senior.com.br/bridge/1.0/rest/',
         headers: {
           'Authorization': tokenSeniorX
-          
         }
-      });
+    });
 
-     /*Valida tamanho do apelido*/
-    if(body.sheetPersona.nickname){
+    /* Valida tamanho do apelido */
+    if(body.sheetPersona.nickname) {
         if(body.sheetPersona.nickname.length > 10) {
-            return sendRes(400,'O apelido teve ter até 10 caracteres!');
+            return sendRes(400,'O apelido deve ter no máximo 10 caracteres!');
         }
     } else {
         return sendRes(400,'O apelido deve ser informado!');
     }
 
-    /*Valida se a foto do colaborador está presente*/
+    /* Valida se a foto do colaborador está presente */
     if(!body.sheetPersona.attachment){
         return sendRes(400,'A foto do colaborador deve ser informada!');
     } 
 
-    /*Não permite alteração de CPF*/
+    /* Não permite alteração de CPF */
     if(body.sheetInitial.employee) {
         let employee = await instance.get(`/hcm/payroll/entities/employee/${body.sheetInitial.employee.tableId}`);
 
@@ -43,8 +42,24 @@ exports.handler = async event => {
             return sendRes(400,'Não é permitido alterar o CPF do Colaborador!'); 
         }
     }
+    
+    /*Valida Campo customizado em conjunto com campo nativo*/
+    if((body.sheetContract.customFieldsEmployee) && (body.sheetComplement.issueDotCard)) {
+        
+        let customFields = body.sheetContract.customFieldsEmployee;
+        let issueDotCard = body.sheetComplement.issueDotCard;
+        
+        //Percorre o array de campos customizados
+        for(let customField of customFields) {
+            if(customField.field === 'USU_CARCOF') {
+                 if((customField.value === 'S') && (issueDotCard.key === 'Yes')) {
+                     return sendRes(400,'Colaboradores com Cargo de confiança não devem emitir cartão Ponto!');
+                }
+            }
+        }
+    }
 
-     /*Valida Range de Escalas para Tipo de Contrato empregado*/ 
+     /* Valida Range de Escalas para Tipo de Contrato empregado */ 
      if((body.sheetInitial.contractType.key === 'Employee') && (body.sheetWorkSchedule.workshift.tableId)){
         try {
             let workshiftResponse = await instance.get(`/hcm/payroll/entities/workshift/${body.sheetWorkSchedule.workshift.tableId}`);
@@ -78,7 +93,7 @@ exports.handler = async event => {
     /*Caso todas as validações passem*/
     return sendRes(200,body);
     
-}
+};
 
 
 

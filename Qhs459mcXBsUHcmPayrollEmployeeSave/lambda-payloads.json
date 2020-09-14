@@ -3,7 +3,7 @@
         "lambda": {
             "environment": "homologx",
             "headers": {
-                "X-Senior-Token": "Bearer 7369f27bf0a008f56ae57733925a52fd"
+                "X-Senior-Token": "bearer 58f0638e95838af939da40c850c31041"
             },
             "body": {
                 "sheetContract": {
@@ -12,6 +12,7 @@
                         "value": "Normal"
                     },
                     "hireDate": "2020-07-01",
+                    "registernumber": 64,
                     "hireType": {
                         "key": "FirstJob",
                         "value": "1 - Primeiro Emprego"
@@ -60,11 +61,16 @@
                     "duration": 90,
                     "extension": 0,
                     "endDate": "2020-09-28",
-                    "customFieldsEmployee": [],
+                    "customFieldsEmployee": [
+                        {
+                            "field": "USU_CARCOF",
+                            "value": "S"
+                        }
+                    ],
                     "customFieldsHistoricalExpenseNature": []
                 },
                 "sheetDocument": {
-                    "cpfNumber": "064567449460",
+                    "cpfNumber": "06456744946",
                     "pisNumber": "16000035846",
                     "pisIssuanceDate": "2000-01-01",
                     "customFieldsRg": []
@@ -123,8 +129,8 @@
                 },
                 "sheetPersona": {
                     "attachment": {
-                        "attachmentId": "A53996C220E64FBD847D97C3E92BFC1B",
-                        "fileId": "25DC7B26A7ED412EAE481EA8983BC8E1/Deno.jpeg",
+                        "attachmentId": "5FD254B6CFC34CC897B76E0F30180CBF",
+                        "fileId": "6BB8C06C13304A0E883A6D76DCCDBF4B/1_1_64.bmp",
                         "thumbnail": false
                     },
                     "nickname": "Cassandri",
@@ -185,7 +191,7 @@
                         "value": "Rua"
                     },
                     "addressName": "Rua sem Saída",
-                    "addressNumber": "99",
+                    "addressNumber": "98",
                     "isDisability": "false",
                     "religion": {
                         "tableId": "861D3F4EA4054D3DB8C9D09E9882F47F",
@@ -248,7 +254,7 @@
                             "tableId": "3A24905BF2A2489C9EFE443E4FEC23BB",
                             "name": "Sind. Indústria Blumenau (Vigente desde 01/07/2020)"
                         },
-                        "isMainSyndicate": true,
+                        "isMainSyndicate": false,
                         "isUnionized": false,
                         "isAssistanceFee": false,
                         "isCosting": false,
@@ -256,6 +262,7 @@
                     }
                 ],
                 "sheetWorkSchedule": {
+                    "workshiftStartDate": "2020-07-01",
                     "workshift": {
                         "tableId": "5C8077B9DA1A4ACEB93662CF504D5DC2",
                         "name": "08:00 1200-1330 1800/Flexível (Vigente desde 01/07/2020)"
@@ -265,8 +272,8 @@
                         "name": "1 (Vigente desde 01/07/2020)"
                     },
                     "intervalGroup": {
-                        "tableId": "6CF9BA4F307C4D948B14B2FA88AE4048",
-                        "name": "Almoço I (Vigente desde 01/07/2020)"
+                        "tableId": "5CE51682EB164E9C975C741D04221D2A",
+                        "name": "0630-1430 (Vigente desde 01/07/2020)"
                     },
                     "customFieldsHistoricalWorkshift": []
                 },
@@ -305,9 +312,18 @@
                         "wagelevel": null
                     },
                     "badge": null,
-                    "issueDotCard": null,
-                    "controlPoint": null,
-                    "deleteClockingEventType": null,
+                    "issueDotCard": {
+                        "key": "Yes",
+                        "value": "Sim"
+                    },
+                    "controlPoint": {
+                        "key": "TYPE_1",
+                        "value": "Controle de Ponto e Refeitório"
+                    },
+                    "deleteClockingEventType": {
+                        "key": "TYPE_1",
+                        "value": "Não eliminar"
+                    },
                     "customFieldsHistoricalTransportationVoucherScale": [],
                     "customFieldsRetirement": [],
                     "healthPlanType": null
