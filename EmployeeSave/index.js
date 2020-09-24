@@ -51,7 +51,7 @@ exports.handler = async event => {
         
         //Percorre o array de campos customizados
         for(let customField of customFields) {
-            if(customField.field === 'USU_CARCOF') {
+            if(customField.field === 'USU_CARCON') {
                  if((customField.value === 'S') && (issueDotCard.key === 'Yes')) {
                      return sendRes(400,'Colaboradores com Cargo de confiança não devem emitir cartão Ponto!');
                 }
