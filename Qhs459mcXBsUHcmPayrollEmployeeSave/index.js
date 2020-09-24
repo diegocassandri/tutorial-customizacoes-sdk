@@ -58,6 +58,14 @@ exports.handler = async event => {
             }
         }
     }
+    
+    
+    /*Desafios para casa*/
+    //Dica, cuidar com o tipo de dado no momento da comparação
+    if((body.sheetPersona.isDisability === "true") && (body.sheetPersona.isOccupantQuota === "false")) {
+        return sendRes(400,'Quando o colaborador for deficiente, o campo Preenche cota deve ser informado com Sim!');
+    }
+    
 
      /* Valida Range de Escalas para Tipo de Contrato empregado */ 
      if((body.sheetInitial.contractType.key === 'Employee') && (body.sheetWorkSchedule.workshift.tableId)){

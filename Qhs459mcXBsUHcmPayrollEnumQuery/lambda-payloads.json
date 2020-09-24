@@ -1,0 +1,11 @@
+{
+    "Qhs459mcXBsUHcmPayrollEnumQuery": {
+        "lambda": {
+            "body": {
+                "names": [
+                    "RetirementType"
+                ]
+            }
+        }
+    }
+}
