@@ -12,6 +12,6 @@
   "dependencies": {
     "@seniorsistemas/fsw-aws-lambda": "0.0.9",
     "axios": "^0.19.2",
-    "moment": "^2.26.0"
+    "moment": "^2.29.2"
   }
 }
